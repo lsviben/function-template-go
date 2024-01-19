@@ -18,7 +18,4 @@ perl -pi -e s,function-template-go,"$1",g fn.go
 # in examples
 perl -pi -e s,function-template-go,"$1",g example/*
 
-printf 'Please provide user input: '
-read -r answer
-
-echo "You provided: $answer"
+echo "Function $1 has been initialised successfully"
